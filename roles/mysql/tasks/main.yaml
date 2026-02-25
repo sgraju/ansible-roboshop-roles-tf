@@ -1,0 +1,13 @@
+  - name: inatll mysql-server
+    ansible.builtin.package:
+      name: mysql-server
+      state: present
+  
+  - name: mysqld start and enable
+    ansible.builtin.service:
+      name: mysqld
+      state: started
+      enabled: yes
+
+  - name: changing the password
+    ansible.builtin.command: mysql_secure_installation --set-root-pass {{ MYSQL_ROOT_PASSWORD }}

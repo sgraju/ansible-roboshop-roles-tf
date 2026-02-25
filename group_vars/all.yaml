@@ -1,0 +1,9 @@
+MONGODB_HOST: mongodb.sgrdevsecops.fun
+REDIS_HOST: redis.sgrdevsecops.fun
+CATALOGUE_HOST: catalogue.sgrdevsecops.fun
+CART_HOST: cart.sgrdevsecops.fun
+MYSQL_HOST: mysql.sgrdevsecops.fun
+USER_HOST: user.sgrdevsecops.fun
+SHIPPING_HOST: shipping.sgrdevsecops.fun
+PAYMENT_HOST: payment.sgrdevsecops.fun
+RABBITMQ_HOST: rabbitmq.sgrdevsecops.fun
