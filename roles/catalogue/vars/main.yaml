@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.sgrdevsecops.fun
+MONGODB_HOST: mongodb-{{ env }}.sgrdevsecops.fun
