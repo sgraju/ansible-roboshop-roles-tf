@@ -3,6 +3,9 @@
     name: common
     tasks_from: app-setup.yaml
 
+# because application issue while upgrading application not able to connect SSH so upgrading opessl as mentioned below 
+- name: upgrade openssl packages
+
 - name: app setup
   ansible.builtin.import_role:
     name: common
